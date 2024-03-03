@@ -81,8 +81,7 @@ PAPERMERGE_OCR_LANGUAGES = cfg_papermerge.get(
     'ocr',
     'language',
     default={
-        'deu': 'Deutsch',
-        'eng': 'English',
+        'eng': 'English'
     }
 )
 
@@ -211,9 +210,7 @@ STATICFILES_FINDERS = [
 ]
 
 LANGUAGES = [
-    ('de', 'Deutsch'),
-    ('en', 'English'),
-    ('fr', 'Français'),
+    ('en', 'English')
 ]
 TIME_ZONE = 'Europe/Berlin'
 USE_I18N = True
